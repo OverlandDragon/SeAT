@@ -1,18 +1,26 @@
 .login-logo  {
-    color: #eca943;
     padding-top: 220px;
-    background-image: url('CLNYLOGO.png');
+    padding-bottom: 30px;
+    background-image: url('images/CLNYLOGO.png');
     background-repeat: no-repeat;
-    background-position: center top;}
+    background-position: center top;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 .login-box-body, .register-box-body {
-    background-color: #eca943; 
-    color: #000;
+    background-color: transparent; 
     }
+
+.login-box-msg {
+    visibility: hidden;
+}
 
 body {
     background-color: #000; 
-    background-image: url('eve-online-cloud-ring-nebula.png');
+    background-image: url('images/eve-online-cloud-ring-nebula.png');
+    background-size: cover;
     }
 
 
@@ -20,4 +28,4 @@ login-box {
     background-color: #eca943; 
     }
 
-hr { background-color: #eca943;; height: 0px; border: 0px;  }
+hr { background-color: transparent; height: 0px; border: 0px;  }
