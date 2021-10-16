@@ -1,0 +1,23 @@
+.login-logo  {
+    color: #eca943;
+    padding-top: 220px;
+    background-image: url('CLNYLOGO.png');
+    background-repeat: no-repeat;
+    background-position: center top;}
+
+.login-box-body, .register-box-body {
+    background-color: #eca943; 
+    color: #000;
+    }
+
+body {
+    background-color: #000; 
+    background-image: url('eve-online-cloud-ring-nebula.png');
+    }
+
+
+login-box {
+    background-color: #eca943; 
+    }
+
+hr { background-color: #eca943;; height: 0px; border: 0px;  }
