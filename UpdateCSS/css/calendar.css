@@ -1,0 +1,74 @@
+.text-padding {
+    padding : 5px 10px;
+}
+
+.text-middle {
+    vertical-align: middle;
+}
+
+.table-title {
+    border-top: 3px solid darkgrey !important;
+    height: 60px;
+    line-height: 60px !important;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tr-hoverable:hover {
+    background-color: #dddddd;
+}
+
+.clickable { 
+    cursor: pointer;
+}
+
+.bg-grey {
+    background-color: #dfdfdf;
+}
+
+#sliderImportance {
+    width : 100% !important;
+}
+
+.label-faded {
+    background-color: #bbb !important;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.pre {
+    white-space: pre-wrap;
+}
+
+.tag {
+    text-transform: uppercase;
+}
+
+/* Sliders format */
+#sliderImportance .slider-selection {
+    background: #00a65a;
+}
+
+#updateSliderImportance .slider-selection {
+    background: #f39c12;
+}
+
+.slider-handle {
+    background: #444;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
+}
+
+/* mobile device optimisation */
+@media (max-width: 767px) and (orientation: portrait) {
+    .hidden-portrait-xs {
+        display: none!important;
+    }
+}
